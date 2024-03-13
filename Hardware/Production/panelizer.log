@@ -1,12 +1,12 @@
-2024-03-13 14:24:30,401 - panelizer_logger - INFO - Running Panelizer
-2024-03-13 14:24:30,404 - panelizer_logger - INFO - ['--panelx', '101.600000', '--panely', '101.600000', '--larger', '--vscorelayer', 'User.Comments', '--vscoretextlayer', 'User.Comments', '--gapx', '0.000000', '--gapy', '0.000000', '--hrail', '6.35', '--vrail', '6.35', '--fiducialslr']
-2024-03-13 14:24:30,405 - panelizer_logger - INFO - PANELIZER START: 2024-03-13T14:24:30.405338
-2024-03-13 14:24:32,571 - panelizer_logger - INFO - 
-START: 2024-03-13T14:24:30.405338
+2024-03-13 14:29:07,483 - panelizer_logger - INFO - Running Panelizer
+2024-03-13 14:29:07,485 - panelizer_logger - INFO - ['--panelx', '101.600000', '--panely', '101.600000', '--larger', '--vscorelayer', 'User.Comments', '--vscoretextlayer', 'User.Comments', '--gapx', '0.000000', '--gapy', '0.000000', '--hrail', '6.35', '--vrail', '6.35', '--fiducialslr']
+2024-03-13 14:29:07,486 - panelizer_logger - INFO - PANELIZER START: 2024-03-13T14:29:07.486631
+2024-03-13 14:29:09,099 - panelizer_logger - INFO - 
+START: 2024-03-13T14:29:07.486631
 Board saved by user.
 
-Board: C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_AirQuality_Combo\Hardware\Production\SparkFun_AirQuality_Combo_panelized.kicad_pcb
+Board: C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_AirQuality_Combo\Hardware\Production\SparkFun Indoor Air Quality Sensor - SCD41 SEN55_panelized.kicad_pcb
 Board dimensions: 82.55 x 44.45 mm.
 You can fit 2 x 3 boards on the panel.
 
-2024-03-13 14:24:32,582 - panelizer_logger - INFO - Panelizer complete
+2024-03-13 14:29:09,125 - panelizer_logger - INFO - Panelizer complete

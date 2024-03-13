@@ -1,5 +1,5 @@
-Drill report for SparkFun_AirQuality_Combo_panelized.kicad_pcb
-Created on 3/13/2024 2:25:08 PM
+Drill report for SparkFun Indoor Air Quality Sensor - SCD41 SEN55_panelized.kicad_pcb
+Created on 3/13/2024 2:29:21 PM
 
 Copper Layer Stackup:
     =============================================================
@@ -7,7 +7,7 @@ Copper Layer Stackup:
     L2 :  B.Cu                      back
 
 
-Drill file 'SparkFun_AirQuality_Combo_panelized.drl' contains
+Drill file 'SparkFun Indoor Air Quality Sensor - SCD41 SEN55_panelized.drl' contains
     plated through holes:
     =============================================================
     T1  0.300mm  0.0118"  (282 holes)
