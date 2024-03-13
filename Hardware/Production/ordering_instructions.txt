@@ -1,0 +1,11 @@
+Ordering Instructions:
+Panel dimensions: 179.30 x 148.05 mm.
+Material: TG155
+Solder Mask: Red
+Silkscreen: White
+Layers: 2
+Finish: Lead-Free HASL
+Thickness: 1.6mm
+Outer Copper Weight: 1oz
+Minimum track width: 0.18mm (7.00mil)
+Minimum via drill: 0.30mm (11.81mil)
