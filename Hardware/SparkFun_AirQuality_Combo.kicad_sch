@@ -2041,6 +2041,31 @@
         )
       )
     )
+    (symbol "SparkFun-Aesthetic:Ordering_Instructions" (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "SparkFun-Aesthetic:Ordering_Instructions" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Ordering_Instructions_0_1"
+        (rectangle (start -10.16 1.27) (end 12.7 -1.27)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+      )
+      (symbol "Ordering_Instructions_1_1"
+        (text "Ordering Instructions" (at 1.27 0 0)
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+    )
     (symbol "SparkFun-Aesthetic:SparkFun_Logo" (pin_names (offset 1.016)) (in_bom yes) (on_board no)
       (property "Reference" "G" (at 0 6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -4106,6 +4131,38 @@
         )
       )
     )
+    (symbol "SparkFun-Connector:TestPoint_0.75mm" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "TP" (at 0 5.08 0) (do_not_autoplace)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "0.75mm" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "SparkFun-Connector:TestPoint-0.75mm" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 -7.62 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Test Point" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "TestPoint_0.75mm_0_1"
+        (circle (center 0 3.302) (radius 0.762)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "TestPoint_0.75mm_1_1"
+        (pin passive line (at 0 0 90) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "SparkFun-DiscreteSemi:D_Schottky_0.5A_40V_0.42V" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -5249,6 +5306,9 @@
   (junction (at 99.06 52.07) (diameter 0) (color 0 0 0 0)
     (uuid 4b5cfe2e-1bae-483b-be7b-17e625be9109)
   )
+  (junction (at 105.41 41.91) (diameter 0) (color 0 0 0 0)
+    (uuid 55eda3fc-c47f-4e3a-b07d-cd125371d956)
+  )
   (junction (at 195.58 96.52) (diameter 0) (color 0 0 0 0)
     (uuid aa64fc27-975d-4c24-80bf-9a9fe2a3f236)
   )
@@ -5488,6 +5548,10 @@
     (stroke (width 0) (type default))
     (uuid ab4a6cce-4147-485c-8781-043b339abd10)
   )
+  (wire (pts (xy 105.41 40.64) (xy 105.41 41.91))
+    (stroke (width 0) (type default))
+    (uuid ad810847-c255-4de3-9235-92fee007d3be)
+  )
   (polyline (pts (xy 12.7 143.51) (xy 156.21 143.51))
     (stroke (width 0) (type dash))
     (uuid b5b2f50b-154b-488a-b425-97163731289f)
@@ -5549,7 +5613,7 @@
     (stroke (width 0) (type default))
     (uuid d9a262b8-2fd3-40af-967e-a04a6f854712)
   )
-  (wire (pts (xy 110.49 41.91) (xy 99.06 41.91))
+  (wire (pts (xy 110.49 41.91) (xy 105.41 41.91))
     (stroke (width 0) (type default))
     (uuid df2769ce-cb5a-4948-beed-029a9f7c672d)
   )
@@ -5585,6 +5649,10 @@
   (wire (pts (xy 54.61 105.41) (xy 54.61 106.68))
     (stroke (width 0) (type default))
     (uuid f2e99ce2-660a-4813-b2fa-26f3a484ee34)
+  )
+  (wire (pts (xy 105.41 41.91) (xy 99.06 41.91))
+    (stroke (width 0) (type default))
+    (uuid f6bfee46-d318-47fc-9c22-58e746a43973)
   )
   (polyline (pts (xy 12.7 83.82) (xy 156.21 83.82))
     (stroke (width 0) (type dash))
@@ -5763,7 +5831,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "ST4") (unit 1)
         )
@@ -5803,7 +5871,7 @@
           (reference "C1") (unit 1)
         )
       )
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "C7") (unit 1)
         )
@@ -5838,7 +5906,7 @@
     (pin "1" (uuid cceaae46-8b1e-4705-97ba-7f5c3324000c))
     (pin "2" (uuid cb443761-09cf-4fbb-8cd0-c66d34d749f9))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "C1") (unit 1)
         )
@@ -5868,7 +5936,7 @@
           (reference "#PWR03") (unit 1)
         )
       )
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0109") (unit 1)
         )
@@ -5896,7 +5964,7 @@
     (pin "3" (uuid 5368675a-572b-4aa3-9c1f-f7ec81d16070))
     (pin "4" (uuid e89a7e3c-54b4-40ec-ab84-693c13e4b0af))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "J3") (unit 1)
         )
@@ -5922,7 +5990,7 @@
     (pin "1" (uuid 1c48f34f-b2b0-478a-a4f2-bed5a80d0430))
     (pin "2" (uuid 93b97299-786c-4a6a-9766-1e8266fa0bfc))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "JP1") (unit 1)
         )
@@ -5946,7 +6014,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "G2") (unit 1)
         )
@@ -5976,7 +6044,7 @@
           (reference "#PWR04") (unit 1)
         )
       )
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0101") (unit 1)
         )
@@ -6000,7 +6068,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "FID3") (unit 1)
         )
@@ -6034,7 +6102,7 @@
           (reference "R2") (unit 1)
         )
       )
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "R5") (unit 1)
         )
@@ -6058,7 +6126,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "FID4") (unit 1)
         )
@@ -6083,7 +6151,7 @@
     )
     (pin "1" (uuid e74ee9a8-70ca-42c9-a84f-b3d528b2a305))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0114") (unit 1)
         )
@@ -6108,7 +6176,7 @@
     )
     (pin "1" (uuid b1dcb519-2cec-411a-bb9c-4b10b4827aad))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0121") (unit 1)
         )
@@ -6142,7 +6210,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "R1") (unit 1)
         )
@@ -6167,7 +6235,7 @@
     )
     (pin "1" (uuid c50a3ce4-4118-4400-9823-8b5913ca24f6))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR01") (unit 1)
         )
@@ -6201,7 +6269,7 @@
           (reference "R4") (unit 1)
         )
       )
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "R2") (unit 1)
         )
@@ -6231,7 +6299,7 @@
           (reference "#PWR0124") (unit 1)
         )
       )
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0107") (unit 1)
         )
@@ -6271,7 +6339,7 @@
           (reference "C5") (unit 1)
         )
       )
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "C9") (unit 1)
         )
@@ -6296,7 +6364,7 @@
     )
     (pin "1" (uuid 6bc804fe-afa5-44a5-93c3-ac91cda28397))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0112") (unit 1)
         )
@@ -6320,7 +6388,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "ST2") (unit 1)
         )
@@ -6345,7 +6413,7 @@
     )
     (pin "1" (uuid 28563c46-9187-46a5-8f8c-100e785156d0))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0115") (unit 1)
         )
@@ -6382,7 +6450,7 @@
           (reference "U1") (unit 1)
         )
       )
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "U5") (unit 1)
         )
@@ -6406,7 +6474,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "G4") (unit 1)
         )
@@ -6430,7 +6498,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "ST3") (unit 1)
         )
@@ -6459,7 +6527,7 @@
     (pin "1" (uuid 1092679d-6d0e-42c8-84cb-5cbd8a74c481))
     (pin "2" (uuid ddc01cff-2833-407e-a692-f88f989bad0c))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "R3") (unit 1)
         )
@@ -6489,7 +6557,7 @@
           (reference "#PWR0124") (unit 1)
         )
       )
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0123") (unit 1)
         )
@@ -6519,7 +6587,7 @@
           (reference "#PWR0124") (unit 1)
         )
       )
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0105") (unit 1)
         )
@@ -6543,7 +6611,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "ST1") (unit 1)
         )
@@ -6568,7 +6636,7 @@
     )
     (pin "1" (uuid 61fe0725-6f94-489f-aa7e-9404f6bda74f))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0116") (unit 1)
         )
@@ -6592,7 +6660,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "U4") (unit 1)
         )
@@ -6635,7 +6703,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "D2") (unit 1)
         )
@@ -6660,7 +6728,7 @@
     )
     (pin "1" (uuid 5d932f48-ee43-487e-826e-468ce27ef018))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0125") (unit 1)
         )
@@ -6697,7 +6765,7 @@
           (reference "L1") (unit 1)
         )
       )
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "L2") (unit 1)
         )
@@ -6722,7 +6790,7 @@
     )
     (pin "1" (uuid e093bea6-2111-4cba-a439-6bfa9b00f6cd))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0111") (unit 1)
         )
@@ -6757,7 +6825,7 @@
     (pin "1" (uuid 94de465e-405c-4fed-ba38-c23ae32b0d53))
     (pin "2" (uuid 886012e8-5f60-49ad-a231-a8a1888b8119))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "C5") (unit 1)
         )
@@ -6782,7 +6850,7 @@
     )
     (pin "1" (uuid 5ee69f18-7797-432d-bcf8-5d40e0376edd))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0120") (unit 1)
         )
@@ -6812,9 +6880,33 @@
           (reference "#PWR05") (unit 1)
         )
       )
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0102") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "SparkFun-Hardware:Standoff") (at 246.38 179.07 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 95e8ff5d-f6db-4fb7-9d97-eefea266abf0)
+    (property "Reference" "ST5" (at 246.38 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Standoff" (at 246.38 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "SparkFun-Hardware:Standoff" (at 246.38 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 246.38 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "SparkFun_AirQuality_Combo_panelized"
+        (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+          (reference "ST5") (unit 1)
         )
       )
     )
@@ -6847,7 +6939,7 @@
     (pin "1" (uuid 3d8c6050-318e-444d-8b5a-cfc56ffffd82))
     (pin "2" (uuid 602f266c-7b24-4ba6-b076-839ca3dad9d4))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "C2") (unit 1)
         )
@@ -6881,7 +6973,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "R6") (unit 1)
         )
@@ -6906,7 +6998,7 @@
     )
     (pin "1" (uuid e6e84afc-1cef-47c2-a6eb-72708296c5f2))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0119") (unit 1)
         )
@@ -6931,7 +7023,7 @@
     )
     (pin "1" (uuid 79a8b5d0-54cc-418a-a5fe-d0ba89eee9f5))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0106") (unit 1)
         )
@@ -6955,7 +7047,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "G3") (unit 1)
         )
@@ -6979,7 +7071,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "FID1") (unit 1)
         )
@@ -7014,7 +7106,7 @@
     (pin "NC1" (uuid 332ebfa3-b4cd-4ade-b788-b66aa67a057c))
     (pin "NC2" (uuid 40a15c6d-157b-42d7-b99e-2d0e79ea4964))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "U1") (unit 1)
         )
@@ -7047,7 +7139,7 @@
     (pin "NC1" (uuid cba45ec0-8e32-42c0-9e8a-14ef5b55ef22))
     (pin "NC2" (uuid 7cfed1e1-397e-43bd-ad44-c161fbf48fd1))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "J1") (unit 1)
         )
@@ -7072,7 +7164,7 @@
     )
     (pin "1" (uuid 7266dbb7-a2c9-489d-b131-245ffebaa09f))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0108") (unit 1)
         )
@@ -7097,7 +7189,7 @@
     )
     (pin "1" (uuid f1016b18-5370-4f73-8c19-6f2d3a3af1e7))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0113") (unit 1)
         )
@@ -7121,7 +7213,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "G1") (unit 1)
         )
@@ -7146,7 +7238,7 @@
     )
     (pin "1" (uuid 8a59fbd1-d4ec-4638-b23a-ed04e0302ff3))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR02") (unit 1)
         )
@@ -7171,7 +7263,7 @@
     )
     (pin "1" (uuid 3a6f9797-8841-434d-88c9-73969ea6106a))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0117") (unit 1)
         )
@@ -7196,7 +7288,7 @@
     )
     (pin "1" (uuid 4d5bbbbc-3fa7-442e-ac47-e495b5e08e87))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0104") (unit 1)
         )
@@ -7226,7 +7318,7 @@
           (reference "#PWR02") (unit 1)
         )
       )
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0110") (unit 1)
         )
@@ -7251,9 +7343,33 @@
     )
     (pin "1" (uuid 600d6061-458f-4945-9c40-67bfe0ca9536))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0124") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "SparkFun-Aesthetic:Ordering_Instructions") (at 254 185.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d8bd3610-41e0-4739-b6e7-18de14e4beed)
+    (property "Reference" "U2" (at 254 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "~" (at 254 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "SparkFun-Aesthetic:Ordering_Instructions" (at 254 189.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 254 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "SparkFun_AirQuality_Combo_panelized"
+        (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -7278,7 +7394,7 @@
     (pin "2" (uuid ab647065-501c-42ff-a7e2-9fbaa1b6f686))
     (pin "3" (uuid 610754e8-1d34-4552-815b-8d856afe863b))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "JP2") (unit 1)
         )
@@ -7303,7 +7419,7 @@
     )
     (pin "1" (uuid b7f71c1a-dc19-41d4-bb00-03938a86032e))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0122") (unit 1)
         )
@@ -7336,7 +7452,7 @@
     (pin "NC1" (uuid bb52fd29-92e2-4f8e-8160-00fba2225c44))
     (pin "NC2" (uuid f62974a6-6ada-4b1f-8eae-55afd704de0e))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "J2") (unit 1)
         )
@@ -7360,7 +7476,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "FID2") (unit 1)
         )
@@ -7395,9 +7511,34 @@
     (pin "1" (uuid 065b490d-a5b7-4195-9750-e875491acda9))
     (pin "2" (uuid 0d483618-82b7-4a0d-8644-e45607b6e4c6))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "C4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "SparkFun-Connector:TestPoint_0.75mm") (at 105.41 40.64 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f6f4f3ab-1af3-492f-b3a8-46df6425ba58)
+    (property "Reference" "TP1" (at 105.41 35.56 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "0.75mm" (at 105.41 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "SparkFun-Connector:TestPoint-0.75mm" (at 105.41 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 105.41 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b938d55e-23d4-45f0-aa90-2dbeafe6e62f))
+    (instances
+      (project "SparkFun_AirQuality_Combo_panelized"
+        (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+          (reference "TP1") (unit 1)
         )
       )
     )
@@ -7420,7 +7561,7 @@
     )
     (pin "1" (uuid 4a2b0eee-ceed-4cfa-b69a-f8448b9dff0f))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0103") (unit 1)
         )
@@ -7445,7 +7586,7 @@
     )
     (pin "1" (uuid a012661c-6e92-4bf8-b88d-c78d1f057a0c))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "#PWR0118") (unit 1)
         )
@@ -7474,7 +7615,7 @@
     (pin "1" (uuid 86fb5ec2-045c-4a5c-9880-6ac16317a80b))
     (pin "2" (uuid ea5b7fd9-0645-4762-adf2-155699793db4))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "D1") (unit 1)
         )
@@ -7522,7 +7663,7 @@
     (pin "8" (uuid 60d4322d-ddd5-4425-9997-2a3584a6a48c))
     (pin "9" (uuid 83633aa4-dd7a-4e94-bb74-b6d986606105))
     (instances
-      (project "SparkFun_AirQuality_Combo"
+      (project "SparkFun_AirQuality_Combo_panelized"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
           (reference "U3") (unit 1)
         )
