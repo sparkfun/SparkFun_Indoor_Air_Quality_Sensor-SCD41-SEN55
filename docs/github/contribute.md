@@ -1,10 +1,10 @@
 # Help Improve the Experience!
-Spot an improvement opportunity? Feel free to contribute to our open-source design and documentation. <a href="https://github.com/sparkfun/SparkFun_AirQuality_Combo/pulls" alt="Pull Requests"><img src="https://img.shields.io/github/issues-pr/sparkfun/SparkFun_AirQuality_Combo.svg" /></a>
+Spot an improvement opportunity? Feel free to contribute to our open-source design and documentation. <a href="https://github.com/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-SCD41-SEN55/pulls" alt="Pull Requests"><img src="https://img.shields.io/github/issues-pr/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-SCD41-SEN55.svg" /></a>
 
 ## Enhance our Documentation
 All of this documentation can be modified by you! Please help us make it better.
 
-* These pages are contained in the [`docs` folder](https://github.com/sparkfun/SparkFun_AirQuality_Combo/tree/main/docs) of the [SparkFun SparkFun Air Quality Combo](https://github.com/sparkfun/SparkFun_AirQuality_Combo) repository.
+* These pages are contained in the [`docs` folder](https://github.com/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-SCD41-SEN55/tree/main/docs) of the [SparkFun SparkFun Air Quality Combo](https://github.com/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-SCD41-SEN55) repository.
 
 ### Submit a Correction
 1. Fork this repo
@@ -16,7 +16,7 @@ All of this documentation can be modified by you! Please help us make it better.
 ## Upgrade our Hardware Design
 All of our designs are open-source! Please help us make it better.
 
-* Our board design files are contained in the [`Hardware` folder](https://github.com/sparkfun/SparkFun_AirQuality_Combo/tree/main/Hardware) of the [SparkFun SparkFun Air Quality Combo](https://github.com/sparkfun/SparkFun_AirQuality_Combo) repository.
+* Our board design files are contained in the [`Hardware` folder](https://github.com/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-SCD41-SEN55/tree/main/Hardware) of the [SparkFun SparkFun Air Quality Combo](https://github.com/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-SCD41-SEN55) repository.
 
 ### Submit a Design Improvement
 1. Fork this repo
@@ -31,6 +31,6 @@ All of our designs are open-source! Please help us make it better.
 ## Contributors
 Let's provide some recognition to those who have contributed to this project!
 
-![GitHub Contributors Image](https://contrib.rocks/image?repo=sparkfun/SparkFun_AirQuality_Combo)
+![GitHub Contributors Image](https://contrib.rocks/image?repo=sparkfun/SparkFun_Indoor_Air_Quality_Sensor-SCD41-SEN55)
 <br>
-<a href="https://github.com/sparkfun/SparkFun_AirQuality_Combo/pulls" alt="Pull Requests"><img src="https://img.shields.io/github/issues-pr/sparkfun/SparkFun_AirQuality_Combo.svg" /></a>
+<a href="https://github.com/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-SCD41-SEN55/pulls" alt="Pull Requests"><img src="https://img.shields.io/github/issues-pr/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-SCD41-SEN55.svg" /></a>

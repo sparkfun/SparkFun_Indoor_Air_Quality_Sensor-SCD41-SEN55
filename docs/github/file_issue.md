@@ -1,6 +1,6 @@
 # Did we make a mistake?
 
-Spot something wrong? Please let us know. <a href="https://github.com/sparkfun/SparkFun_AirQuality_Combo" alt="Issues"><img src="https://img.shields.io/github/issues/sparkfun/SparkFun_AirQuality_Combo.svg" /></a>
+Spot something wrong? Please let us know. <a href="https://github.com/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-SCD41-SEN55" alt="Issues"><img src="https://img.shields.io/github/issues/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-SCD41-SEN55.svg" /></a>
 
 !!! attention
 	This is not where customers should seek assistance on a product. If you require technical assistance or have questions about a product that is not working as expected, please head over to the [SparkFun Technical Assistance](https://www.sparkfun.com/technical_assistance) page for some initial troubleshooting.
@@ -17,10 +17,10 @@ Spot something wrong? Please let us know. <a href="https://github.com/sparkfun/S
 
 All of this documentation can be modified by you! Please help us make it better.
 
-* The documentation files for these pages are contained in the [`docs` folder](https://github.com/sparkfun/SparkFun_AirQuality_Combo/tree/main/docs) of the [SparkFun SparkFun Air Quality Combo](https://github.com/sparkfun/SparkFun_AirQuality_Combo) repository.
+* The documentation files for these pages are contained in the [`docs` folder](https://github.com/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-SCD41-SEN55/tree/main/docs) of the [SparkFun SparkFun Air Quality Combo](https://github.com/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-SCD41-SEN55) repository.
 
 ### Spot something wrong?
-If a section of the documentation is incorrect, please [open an issue](https://github.com/sparkfun/SparkFun_AirQuality_Combo/issues) and let us know.
+If a section of the documentation is incorrect, please [open an issue](https://github.com/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-SCD41-SEN55/issues) and let us know.
 
 ### Do you have a suggested correction?
 1. With a GitHub account, fork this repo
@@ -33,14 +33,14 @@ If a section of the documentation is incorrect, please [open an issue](https://g
 
 All of our designs are open-source! Please help us make it better.
 
-* Our board design files are contained in the [`Hardware` folder](https://github.com/sparkfun/SparkFun_AirQuality_Combo/tree/main/Hardware) of the [SparkFun SparkFun Air Quality Combo](https://github.com/sparkfun/SparkFun_AirQuality_Combo) repository.
+* Our board design files are contained in the [`Hardware` folder](https://github.com/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-SCD41-SEN55/tree/main/Hardware) of the [SparkFun SparkFun Air Quality Combo](https://github.com/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-SCD41-SEN55) repository.
 
 ### Does something not make sense?
-If part of the design is confusing, please [open an issue](https://github.com/sparkfun/SparkFun_AirQuality_Combo/issues) and let us know.
+If part of the design is confusing, please [open an issue](https://github.com/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-SCD41-SEN55/issues) and let us know.
 
 ### Did we forget to include an important function of the board?
 * Please keep in mind that we may intentionally exclude certain functions of the board to meet our product design requirements. *(For example, our Qwiic Micro boards are intended to fit on a small board layout and only use I<sup>2</sup>C communication; therefore, we may not have the SPI and interrupt pins available for users.)*
-* If part of the board's functionality is missing, please [open an issue](https://github.com/sparkfun/SparkFun_AirQuality_Combo/issues) and file a feature request.
+* If part of the board's functionality is missing, please [open an issue](https://github.com/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-SCD41-SEN55/issues) and file a feature request.
 
 ### Do you wish to contribute directly to improving the board design?
 1. With a GitHub account, Fork this repo
