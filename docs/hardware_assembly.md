@@ -8,7 +8,9 @@ Now that we're familiar with the SEN55 and SCD41 on this breakout, it's time to 
 
 SparkFun's Qwiic system makes assembling a circuit a breeze. Simply plug the breakout into your chosen microcontroller with a Qwiic cable. After assembling your circuit, it should look similar to the photo below:
 
-
+<figure markdown>
+[![Photo of completed Qwiic assembly.](./assets/img/Indoor-Air-Quality-Sensor-Action-1.jpg){ width="400"}](./assets/img/Indoor-Air-Quality-Sensor-Action-1.jpg "Click to enlarge")
+</figure>
 
 Reminder, for ideal results, make sure to fully calibrate the SCD41 by taking continuous measurements for one hour every day for seven days.
 
