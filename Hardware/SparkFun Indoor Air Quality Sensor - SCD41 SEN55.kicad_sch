@@ -52,7 +52,7 @@
 				)
 			)
 			(property "Description" "Fiducial Marker"
-				(at 0 0 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1896,7 +1896,7 @@
 				)
 			)
 			(property "Description" "Inductor"
-				(at 0 0 0)
+				(at 0 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2069,7 +2069,7 @@
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2266,7 +2266,7 @@
 				)
 			)
 			(property "Description" "4 pin JST 1mm polarized connector for I2C"
-				(at 0 0 0)
+				(at 0 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2643,7 +2643,7 @@
 				)
 			)
 			(property "Description" "Test Point"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2736,7 +2736,7 @@
 				)
 			)
 			(property "Description" "Schottky diode"
-				(at 0 0 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2895,7 +2895,7 @@
 				)
 			)
 			(property "Footprint" "SparkFun-Hardware:Standoff"
-				(at 0 -5.08 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2904,7 +2904,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 -3.81 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2913,7 +2913,7 @@
 				)
 			)
 			(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2996,7 +2996,7 @@
 				)
 			)
 			(property "Description" "500mA, Adjustable Step-Up Voltage Regulator, 1.5MHz Frequency, SOT-23-5"
-				(at 0 0 0)
+				(at 0 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3362,7 +3362,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 -7.62 0)
+				(at 0 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3371,7 +3371,7 @@
 				)
 			)
 			(property "Description" "Solder Jumper, 3-pole, pins 1+2+3 closed/bridged"
-				(at 0 -8.89 0)
+				(at 0 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3620,8 +3620,8 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-LED:LED_0603_1608Metric"
-				(at 0 -6.35 0)
+			(property "Footprint" "SparkFun-LED:LED_0603_1608Metric_Red"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3630,7 +3630,7 @@
 				)
 			)
 			(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0551EN"
-				(at -1.27 -8.89 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3639,7 +3639,7 @@
 				)
 			)
 			(property "Description" "Light emitting diode"
-				(at 0 -11.43 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3648,7 +3648,7 @@
 				)
 			)
 			(property "PROD_ID" "DIO-17976"
-				(at 0 -4.572 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3820,7 +3820,7 @@
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"3.3V\""
-				(at 0 0 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3941,7 +3941,7 @@
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"5V\""
-				(at 0 0 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4062,7 +4062,7 @@
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
+				(at 0 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5589,7 +5589,7 @@
 				)
 			)
 			(property "PROD_ID" "COMP-20319"
-				(at 0 -12.7 0)
+				(at 0.635 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11548,7 +11548,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SparkFun-LED:LED_0603_1608Metric"
+		(property "Footprint" "SparkFun-LED:LED_0603_1608Metric_Red"
 			(at 60.96 128.27 0)
 			(effects
 				(font
@@ -11625,7 +11625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun-Sensor:SCD4X"
+		(property "Footprint" "SparkFun-Sensor:SCD4x"
 			(at 203.835 107.95 0)
 			(effects
 				(font
