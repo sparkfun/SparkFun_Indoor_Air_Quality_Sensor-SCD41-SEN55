@@ -226,7 +226,7 @@ We designed this board for easy integration into SparkFun's Qwiic connect system
 <table>
   <tr>
    <td>
-   <div style="text-align: center"><a href="https://www.sparkfun.com/qwiic"><img src="../assets/images/Qwiic-registered-updated.png" alt="Qwiic Connect System" title="Click to learn more about the Qwiic Connect System!"></a></div>
+   <div style="text-align: center"><a href="https://www.sparkfun.com/qwiic"><img src="../assets/img/Qwiic-registered-updated.png" alt="Qwiic Connect System" title="Click to learn more about the Qwiic Connect System!"></a></div>
    </td>
   </tr>
   <tr>

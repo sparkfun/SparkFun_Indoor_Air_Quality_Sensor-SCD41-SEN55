@@ -1,6 +1,6 @@
 
-site_name: SparkFun Indoor Air Sensor SCD41 SEN55 Hookup Guide
-site_description: A hookup guide for the SparkFun Indoor Air Sensor SCD41 SEN55 featuring the SEN55 and SCD41 from Sensirion.
+site_name: SparkFun Indoor Air Sensor SCD41, SEN55 (Qwiic) Hookup Guide
+site_description: A hookup guide for the SparkFun Indoor Air Sensor SCD41, SEN55 (Qwiic) featuring the SEN55 and SCD41 from Sensirion.
 site_url: https://sparkfun.github.io/SparkFun_Indoor_Air_Quality_Sensor-SCD41-SEN55
 
 edit_uri: blob/main/docs/
@@ -15,7 +15,7 @@ copyright:
 theme:
   # Theme: https://squidfunk.github.io/mkdocs-material/
   name: material
-  logo: assets/images/sfe_logo_sq.png
+  logo: assets/img/sfe_logo_sq.png
   palette:
     primary: grey
     accent: red
@@ -204,8 +204,8 @@ nav:
     - Introduction: introduction.md
     - Hardware Overview: hardware_overview.md
     - Hardware Assembly: hardware_assembly.md
-      - Software Setup: software_setup.md
-      - Arduino Examples: examples.md
+    - Software Setup: software_setup.md
+    - Arduino Examples: examples.md
   - Resources: resources.md
   - Support:
     - Troubleshooting: troubleshooting.md
