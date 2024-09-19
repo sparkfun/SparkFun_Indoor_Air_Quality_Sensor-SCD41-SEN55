@@ -2,11 +2,36 @@
 icon: material/book-open-page-variant
 ---
 
-The SparkFun Indoor Air Quality Sensor - SCD41 SEN55 (Qwiic) combines two excellent indoor air quality sensors in the SCD41 and SEN55 from Sensirion<sup>&trade;</sup> to provide a comprehensive indoor air quality sensor that measures CO<sub>2</sub>, Volatile Organic Compounds (VOCs), particulate matter (PM1.0, 2.5, 4, and 10) along with temperature and relative humidity.
+<div class="grid cards desc" markdown>
+
+-    <a href="https://www.sparkfun.com/products/25200">
+    **SparkFun Indoor Air Quality Combo Sensor - SCD41, SEN55 (Qwiic)**<br>
+    **SKU:** SEN-25200
+
+    ---
+
+    <figre markdown>
+    ![Product Thumbnail](https://cdn.sparkfun.com/r/455-455/assets/parts/2/5/6/9/0/SEN-25200-Indoor-Air-Quality-Sensor-Feature.jpg)
+    </figure></a>
+
+    <center>
+    <article class="video_desc">
+    <iframe src="https://www.youtube.com/embed/Cn1trZE5GPI?si=KZZngeRyTVlIOeQ6" title="Product Showcase: SparkFun Indoor Air Quality Combo Sensor - SCD41, SEN55 (Qwiic)" frameborder="0" allow="accelerometer; autoplay; clipboard-write;encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </article>
+    </center>
+
+-    The SparkFun Indoor Air Quality Combo Sensor - SCD41 SEN55 (Qwiic) combines two excellent indoor air quality sensors in the SCD41 and SEN55 from Sensirion<sup>&trade;</sup> to provide a comprehensive indoor air quality sensor that measures CO<sub>2</sub>, Volatile Organic Compounds (VOCs), particulate matter (PM1.0, 2.5, 4, and 10) along with temperature and relative humidity.<br>
+The SparkFun Qwiic Indoor Air Quality Combo Sensor takes care of all the power requirements of the SEN55 and SCD41 with onboard DC voltage conversion, allowing a simple, single Qwiic connection for power and communication.
+
+    <center>
+    [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/25200){ .md-button .md-button--primary }
+    </center>
+
+</div>
 
 ## Required Materials
 
-To follow along with this guide you will need a microcontroller to communicate with the Air Quality Combo Board. Below are a few options that come Qwiic-enabled out of the box:
+To follow along with this guide you will need a microcontroller to communicate with the Indoor Air Quality Combo Board. Below are a few options that come Qwiic-enabled out of the box:
 
 <div class="grid cards" markdown>
 
