@@ -12,6 +12,7 @@ Those who prefer to manually install the libraries can download ZIPs of the libr
 <center>
 [SparkFun SCD4x Arduino Library (ZIP)](https://github.com/sparkfun/SparkFun_SCD4x_Arduino_Library/archive/refs/heads/main.zip){ .md-button .md-button--primary }
 </center>
+
 <center>
 [Sensirion Arduino Core Library (ZIP)](https://github.com/Sensirion/arduino-core/archive/refs/heads/main.zip){ .md-button .md-button--primary }
 </center>
